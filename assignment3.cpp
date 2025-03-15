@@ -17,19 +17,19 @@ private:
     int w;
     int h;
 public:
-    Volume() {
+    Volume() {//Default value insert
         this->l = 2;
         this->w = 2;
         this->h = 2;
     }
 
-    Volume(int l, int h, int w) {
+    Volume(int l, int h, int w) { //Diffrent parameter insert
         this->l = l;
         this->h = h;
         this->w = w;
     }
 
-    Volume(int size) {
+    Volume(int size) { //Diffrent parameter with same input
         this->l = size;
         this->h = size;
         this->w = size;
